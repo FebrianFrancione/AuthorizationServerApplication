@@ -1,8 +1,0 @@
-com/okta/spring/AuthorizationServerApplication/AuthServerConfig.java
- com.okta.spring.AuthorizationServerApplication.AuthServerConfig
-com/okta/spring/AuthorizationServerApplication/UserController.java
- com.okta.spring.AuthorizationServerApplication.UserController
-com/okta/spring/AuthorizationServerApplication/AuthorizationServerApplication.java
- com.okta.spring.AuthorizationServerApplication.AuthorizationServerApplication
-com/okta/spring/AuthorizationServerApplication/SecurityConfiguration.java
- com.okta.spring.AuthorizationServerApplication.SecurityConfiguration
