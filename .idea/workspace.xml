@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="added node.js and dependencies">
+    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="connected db">
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/dashboard.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,21 +72,9 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager" selected="npm.dev">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -133,8 +124,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="Node.js.db.js" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.db.js" />
         <item itemvalue="npm.production" />
         <item itemvalue="npm.hot" />
       </list>
@@ -156,7 +147,10 @@
       <workItem from="1610572126906" duration="3822000" />
       <workItem from="1610575993011" duration="1664000" />
       <workItem from="1610634486616" duration="498000" />
-      <workItem from="1610634997848" duration="6859000" />
+      <workItem from="1610634997848" duration="10220000" />
+      <workItem from="1610659780504" duration="655000" />
+      <workItem from="1610662600743" duration="1181000" />
+      <workItem from="1610720083757" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -193,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610640512841</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="connected db">
+      <created>1610655477849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610655477849</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +219,8 @@
     </ignored-roots>
     <MESSAGE value="Added setup files" />
     <MESSAGE value="added node.js and dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="added node.js and dependencies" />
+    <MESSAGE value="connected db" />
+    <option name="LAST_COMMIT_MESSAGE" value="connected db" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
