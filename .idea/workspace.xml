@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="add stories">
+    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="added stories">
+      <change afterPath="$PROJECT_DIR$/helpers/hbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/stories/edit.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/stories/index.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/stories/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/stories/add.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +167,7 @@
       <workItem from="1610659780504" duration="655000" />
       <workItem from="1610662600743" duration="1181000" />
       <workItem from="1610720083757" duration="6138000" />
-      <workItem from="1610738324661" duration="9180000" />
+      <workItem from="1610738324661" duration="12801000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610747660516</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added stories">
+      <created>1610758583117</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610758583117</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +284,8 @@
     <MESSAGE value="added google api" />
     <MESSAGE value="added middleware and login works, with booing if not auth'd" />
     <MESSAGE value="add stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stories" />
+    <MESSAGE value="added stories" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stories" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
