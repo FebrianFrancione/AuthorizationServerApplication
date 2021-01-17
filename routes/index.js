@@ -4,6 +4,24 @@ const{ ensureAuth, ensureGuest} = require('../middleware/auth')
 
 const Story = require('../models/Story')
 
+
+let request = require('request');
+
+let apiKey = 'c158ceab3a0263b06cdfbb070ffb25bc';
+let city = 'portland';
+let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+
+request(url, function (err, response, body) {
+    if(err){
+        console.log('error:', error);
+    } else {
+        let weather = JSON.parse(body)
+        let message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
+        console.log(message);
+    }
+});
+
+
 //@desc Loogin/Landing Page
 //@route GET/
 router.get('/', ensureGuest,   (req, res) => {

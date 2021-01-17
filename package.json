@@ -21,6 +21,7 @@
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "render": "^0.1.4",
+    "request": "^2.88.2",
     "session": "^0.1.0"
   }
 }
