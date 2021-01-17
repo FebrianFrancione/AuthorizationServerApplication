@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="added stories">
-      <change afterPath="$PROJECT_DIR$/views/stories/show.hbs" afterDir="false" />
+    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="finished">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dashboard.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/stories/edit.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/stories/edit.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +71,6 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunManager" selected="npm.dev">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -165,7 +147,9 @@
       <workItem from="1610659780504" duration="655000" />
       <workItem from="1610662600743" duration="1181000" />
       <workItem from="1610720083757" duration="6138000" />
-      <workItem from="1610738324661" duration="14411000" />
+      <workItem from="1610738324661" duration="14435000" />
+      <workItem from="1610818545633" duration="429000" />
+      <workItem from="1610842747738" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -258,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610762029850</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finished">
+      <created>1610763645672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610763645672</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +281,8 @@
     <MESSAGE value="added middleware and login works, with booing if not auth'd" />
     <MESSAGE value="add stories" />
     <MESSAGE value="added stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="added stories" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
