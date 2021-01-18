@@ -5,10 +5,11 @@ const{ ensureAuth, ensureGuest} = require('../middleware/auth')
 const Story = require('../models/Story')
 
 
-let request = require('request');
+const request = require('request');
+const argv = require('yargs').argv;
 
 let apiKey = 'c158ceab3a0263b06cdfbb070ffb25bc';
-let city = 'portland';
+let city = argv.c || 'portland';
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 
 request(url, function (err, response, body) {
@@ -22,6 +23,9 @@ request(url, function (err, response, body) {
 });
 
 
+
+
+
 //@desc Loogin/Landing Page
 //@route GET/
 router.get('/', ensureGuest,   (req, res) => {
@@ -32,7 +36,7 @@ router.get('/', ensureGuest,   (req, res) => {
 })
 
 
-//@desc Dashbaord
+//@desc Dashboard
 //@route GET/dashboard
 router.get('/dashboard', ensureAuth, async (req,res)=>{
     console.log(req.user)
@@ -43,6 +47,7 @@ router.get('/dashboard', ensureAuth, async (req,res)=>{
             name: req.user.firstName,
             stories
         })
+
     }catch (err){
         console.error(err)
         res.render('error/500')

@@ -12,7 +12,6 @@ const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/db')
 
 
-
 //Load Config
 dotenv.config({path: './config/config.env'})
 
