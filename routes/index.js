@@ -50,29 +50,9 @@ router.get('/login', ensureGuest,   (req, res) => {
     })
 })
 
-//localhost:3000/weather?address=lahore
-router.get('/weather', (req, res) => {
-    const address = req.query.address
-    if(!address) {
-        return res.send({
-            error: "You must enter address in search text box"
-        })
-    }
 
-    weatherData(address, (error, {temperature, description, cityName} = {}) => {
-        if(error) {
-            return res.send({
-                error
-            })
-        }
-        console.log(temperature, description, cityName);
-        res.send({
-            temperature,
-            description,
-            cityName
-        })
-    })
-});
+
+
 
 
 //@desc Dashboard

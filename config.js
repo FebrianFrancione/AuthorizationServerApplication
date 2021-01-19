@@ -4,3 +4,5 @@ const constants = {
         SECRET_KEY: "c158ceab3a0263b06cdfbb070ffb25bc"
     }
 }
+
+module.exports = constants;

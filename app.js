@@ -12,7 +12,7 @@ const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/db');
 const hbs = require("hbs");
 
-
+const weatherData = require('./utils/weatherData');
 
 //Load Config
 dotenv.config({path: './config/config.env'})
@@ -39,7 +39,7 @@ const publicStaticDirPath = path.join(__dirname, '../public')
 // app.set('view engine', 'hbs');
 // app.set('views', viewsPath);
 // hbs.registerPartials(partialsPath);
-app.use(express.static(publicStaticDirPath));
+// app.use(express.static(publicStaticDirPath));
 
 
 //Method override
@@ -51,6 +51,30 @@ app.use(methodOverride(function (req, res) {
         return method
     }
 }))
+
+//localhost:3000/weather?address=lahore
+app.get('/weather', (req, res) => {
+    const address = req.query.address
+    if(!address) {
+        return res.send({
+            error: "You must enter address in search text box"
+        })
+    }
+
+    weatherData(address, (error, {temperature, description, cityName} = {}) => {
+        if(error) {
+            return res.send({
+                error
+            })
+        }
+        console.log(temperature, description, cityName);
+        res.send({
+            temperature,
+            description,
+            cityName
+        })
+    })
+});
 
 
 
