@@ -15,3 +15,6 @@ https://console.cloud.google.com/
 
 Passport.js:
 http://www.passportjs.org/
+
+Weather api:
+https://www.youtube.com/watch?v=nc3IoAiu-ew
