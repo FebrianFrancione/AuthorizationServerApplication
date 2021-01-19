@@ -1,5 +1,5 @@
 // console.log("Hello world")
-const path= require('path')
+const path = require('path')
 const express = require('express')
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
@@ -9,8 +9,8 @@ const methodOverride = require('method-override')
 const passport = require('passport')
 const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
-const connectDB = require('./config/db')
-
+const connectDB = require('./config/db');
+const hbs = require("hbs");
 
 
 
@@ -28,6 +28,18 @@ const app = express()
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
+
+//hbs partials
+const publicStaticDirPath = path.join(__dirname, '../public')
+
+// const viewsPath = path.join(__dirname, '../templates/views');
+//
+// const partialsPath = path.join(__dirname, '../templates/partials');
+
+// app.set('view engine', 'hbs');
+// app.set('views', viewsPath);
+// hbs.registerPartials(partialsPath);
+app.use(express.static(publicStaticDirPath));
 
 
 //Method override
@@ -87,6 +99,7 @@ app.use(function (req,res, next){
 
 //static
 app.use(express.static(path.join(__dirname, 'public')))
+
 
 //Routes
 app.use('/', require('./routes/index'))
