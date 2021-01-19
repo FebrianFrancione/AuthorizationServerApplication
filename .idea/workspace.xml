@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="weather api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +168,7 @@
       <workItem from="1610842747738" duration="5873000" />
       <workItem from="1610933188939" duration="3117000" />
       <workItem from="1610936659157" duration="1033000" />
-      <workItem from="1611013689376" duration="15803000" />
+      <workItem from="1611013689376" duration="16420000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -293,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611029433666</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="weather api">
+      <created>1611030476828</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611030476828</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
