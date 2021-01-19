@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dashboard</title>
+
+</head>
+
+<body>
+{{> _header}}
+
+<div class="main-content">
+    <article class="widget">
+        <form class="weatherLocation"><input placeholder="location..." type = "text"/><button>Search</button>
+        </form>
+        <div class="weatherIcon"><i class="fas fa-cloud-sun"></i></div>
+        <div class="weatherInfo">
+            <div class="temperature"><span></span></div>
+            <div class="description">
+                <div class="weatherCondition"></div>
+                <div class="place"></div>
+            </div>
+        </div>
+        <div class="date"></div>
+    </article>
+</div>
+<script src="public/js/app.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.15.1/ckeditor.js" integrity="sha512-aThGT4RJc95+zt2vrs8iMjrFpsJxcFclp7tweVls6/3cNo3GWvGvtLV576o8Kdvdf3fJhrrG3wkmoea/KJMLFQ==" crossorigin="anonymous"></script>
+
+<script>
+    M.Sidenav.init(document.querySelector('.sidenav'))
+    M.FormSelect.init(document.querySelector('#status'))
+
+    CKEDITOR.replace('body', {
+        plugins: 'wysiwygarea, toolbar, basicstyles, link'
+    })
+</script>
+
+</body>
+</html>

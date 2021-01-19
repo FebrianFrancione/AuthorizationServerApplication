@@ -108,6 +108,7 @@ router.put('/:id', ensureAuth, async (req, res) => {
             })
 
             res.redirect('/dashboard')
+
         }
     } catch (err) {
         console.error(err)

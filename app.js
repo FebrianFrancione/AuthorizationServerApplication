@@ -12,6 +12,8 @@ const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/db')
 
 
+
+
 //Load Config
 dotenv.config({path: './config/config.env'})
 
@@ -25,6 +27,8 @@ const app = express()
 //Body parser
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
+
+
 
 //Method override
 app.use(methodOverride(function (req, res) {
