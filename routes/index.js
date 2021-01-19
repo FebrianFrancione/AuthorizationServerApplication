@@ -15,8 +15,9 @@ try{
     console.error(err)
     res.render('error/500')
 }
-
 })
+
+
 
 //
 // @desc Loogin/Landing Page
