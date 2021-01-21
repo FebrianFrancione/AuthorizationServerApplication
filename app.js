@@ -10,7 +10,7 @@ const passport = require('passport')
 const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/db');
-const hbs = require("hbs");
+// const hbs = require("hbs");
 
 const weatherData = require('./utils/weatherData');
 

@@ -18,7 +18,6 @@ try{
 })
 
 
-
 //
 // @desc Loogin/Landing Page
 // @route GET/
