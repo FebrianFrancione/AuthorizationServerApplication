@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="fixed weather">
+    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="fixed code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1n1PV7llcrLCVIdRFTl5q5C3kzs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -177,7 +186,7 @@
       <workItem from="1610936659157" duration="1033000" />
       <workItem from="1611013689376" duration="16420000" />
       <workItem from="1611066851945" duration="9530000" />
-      <workItem from="1611241776372" duration="2593000" />
+      <workItem from="1611241776372" duration="4296000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -319,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611069547761</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixed code">
+      <created>1611244401316</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611244401316</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +370,8 @@
     <MESSAGE value="finished" />
     <MESSAGE value="weather api" />
     <MESSAGE value="fixed weather" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed weather" />
+    <MESSAGE value="fixed code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
