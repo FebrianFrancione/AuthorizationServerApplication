@@ -1,4 +1,6 @@
-# AuthorizationServerApplication
+# Dashboard
+
+An express/handlebars dashboard using MongoDB, weather API and storyboard.
 
 Resources Used: 
 Materialize.css:
