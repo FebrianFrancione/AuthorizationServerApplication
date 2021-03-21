@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-
+//call mongoose schema
 const UserSchema = new mongoose.Schema({
     googleId: {
         type: String,
