@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="fixed code" />
+    <list default="true" id="9d382877-d239-4f7b-8a87-3795a285b783" name="Default Changelist" comment="fixed code 2">
+      <change beforePath="$PROJECT_DIR$/models/Story.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Story.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +171,7 @@
       <workItem from="1611013689376" duration="16420000" />
       <workItem from="1611066851945" duration="9530000" />
       <workItem from="1611241776372" duration="4296000" />
-      <workItem from="1616423858980" duration="17000" />
+      <workItem from="1616423858980" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="added node.js and dependencies">
       <created>1610576983368</created>
@@ -318,7 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611244401316</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed code">
+      <created>1616337519519</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616337519519</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixed code 2">
+      <created>1616423960616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1616423960616</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +370,8 @@
     <MESSAGE value="weather api" />
     <MESSAGE value="fixed weather" />
     <MESSAGE value="fixed code" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed code" />
+    <MESSAGE value="fixed code 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
