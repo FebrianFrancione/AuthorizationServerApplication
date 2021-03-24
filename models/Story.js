@@ -25,4 +25,5 @@ const StorySchema = new mongoose.Schema({
     }
 })
 //module export 2
+//access the mongoose model
 module.exports = mongoose.model('Story', StorySchema)
